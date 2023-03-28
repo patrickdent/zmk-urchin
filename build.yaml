@@ -14,6 +14,8 @@
 ---
 include:
   - board: nice_nano_v2
-    shield: splitkb_aurora_sweep_left
+    shield: sandbender_left
   - board: nice_nano_v2
-    shield: splitkb_aurora_sweep_right
+    shield: sandbender_right
+  - board: nice_nano_v2
+    shield: settings_reset
