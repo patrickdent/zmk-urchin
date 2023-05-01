@@ -92,8 +92,8 @@
         left_layer_special {
             bindings = <
         //╭──────────┬──────────┬──────────┬──────────┬──────────╮   ╭──────────┬──────────┬──────────┬──────────┬──────────╮
-        //│ XXXXXX   │ Up       │ XXXXXX   │ XXXXXX   │ Backslsh │   │  XXXXXX  │  XXXXXX  │  XXXXXX  │ XXXXXX   │ Caps Word│
-            &none      &kp UP     &none      &none      &kp BSLH        &none      &none      &none     &none     &caps_word
+        //│ XXXXXX   │ XXXXXX   │  Up      │ XXXXXX   │ Backslsh │   │  XXXXXX  │  XXXXXX  │  XXXXXX  │ XXXXXX   │ Caps Word│
+            &none      &none       &kp UP     &none      &kp BSLH        &none      &none      &none     &none     &caps_word
         //├──────────┼──────────┼──────────┼──────────┼──────────┤   ├──────────┼──────────┼──────────┼──────────┼──────────┤
         //│ Grave    │ Left     │ Down     │ Right    │ XXXXXX   │   │  Tab     │  Alt     │  GUI     │ Control  │ Shift    │
             &kp GRAVE  &kp LEFT   &kp DOWN   &kp RIGHT  &none           &kp TAB    &kp RALT  &kp RGUI  &kp RCTRL  &kp RSHIFT
