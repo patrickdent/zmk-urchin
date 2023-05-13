@@ -41,8 +41,8 @@
         right_layer_alpha {
             bindings = <
         //╭──────────┬──────────┬──────────┬──────────┬──────────╮   ╭──────────┬──────────┬──────────┬──────────┬──────────╮
-        //│Caps Word │  XXXXXX  │  XXXXXX  │  XXXXXX  │ XXXXXX   │   │          │          │          │          │          │
-            &caps_word   &none      &none     &none     &none          &trans     &trans     &trans     &trans     &trans
+        //│Caps Word │  XXXXXX  │  XXXXXX  │  XXXXXX  │ bt lyr   │   │          │          │          │          │          │
+            &caps_word   &none      &none     &none     &mo 5          &trans     &trans     &trans     &trans     &trans
         //├──────────┼──────────┼──────────┼──────────┼──────────┤   ├──────────┼──────────┼──────────┼──────────┼──────────┤
         //│ Shift    │  Control │  GUI     │  Alt     │ Tab      │   │          │          │          │          │          │
             &kp LSHIFT  &kp LCTRL  &kp LGUI   &kp LALT  &kp TAB        &trans     &trans     &trans     &trans     &trans
@@ -103,6 +103,23 @@
         //╰──────────┴──────────┴──────────┼──────────┼──────────┤   ├──────────┼──────────┼──────────┴──────────┴──────────╯
                                              &kp DEL    &kp BSPC         &none     &trans
         //                                 ╰──────────┴──────────╯   ╰──────────┴──────────╯
+            >;
+        };
+
+        bt_layer {
+            bindings = <
+        //╭──────────┬──────────┬──────────┬──────────┬──────────╮   ╭──────────────┬──────────────┬──────────────┬──────────────┬──────────────╮
+        //│ XXXXXX   │ XXXXXX   │ XXXXXX   │ XXXXXX   │          │   │ bt prof 0    │ bt prof 1    │ bt prof 2    │ bt prof      │ bt prof 4    │
+            &none      &none      &none      &none      &trans         &bt BT_SEL 0   &bt BT_SEL 1   &bt BT_SEL 2   &bt BT_SEL 3   &bt BT_SEL 4
+        //├──────────┼──────────┼──────────┼──────────┼──────────┤   ├──────────────┼──────────────┼──────────────┼──────────────┼──────────────┤
+        //│ XXXXXX   │ XXXXXX   │ XXXXXX   │ XXXXXX   │ XXXXXX   │   │ XXXXXX       │ XXXXXX       │ XXXXXX       │ XXXXXX       │ XXXXXX       │
+            &none      &none       &none     &none      &none          &none          &none          &none          &none          &none
+        //├──────────┼──────────┼──────────┼──────────┼──────────┤   ├──────────────┼──────────────┼──────────────┼──────────────┼──────────────┤
+        //│  XXXXXX  │ XXXXXX   │ XXXXXX   │ XXXXXX   │ XXXXXX   │   │ XXXXXX       │ XXXXXX       │ XXXXXX       │ XXXXXX       │ XXXXXX       │
+            &none      &none       &none     &none      &none          &none          &none          &none          &none          &none
+        //╰──────────┴──────────┴──────────┼──────────┼──────────┤   ├──────────────┼──────────────┼──────────────┴──────────────┴──────────────╯
+                                             &none      &trans         &none          &bt BT_CLR
+        //                                 ╰──────────┴──────────╯   ╰──────────────┴──────────────╯
             >;
         };
     };
