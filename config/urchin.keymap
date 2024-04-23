@@ -21,7 +21,7 @@
 
     keymap {
         compatible = "zmk,keymap";
-        default_layer {
+        default_layer { // 0
             bindings = <
         //╭──────────┬──────────┬──────────┬──────────┬──────────╮   ╭──────────┬──────────┬──────────┬──────────┬──────────╮
         //│  Q       │  W       │  E       │  R       │  T       │   │  Y       │  U       │  I       │  O       │  P       │
@@ -38,7 +38,7 @@
             >;
         };
 
-        right_layer_alpha {
+        right_layer_alpha { // 1
             bindings = <
         //╭──────────┬──────────┬──────────┬──────────┬──────────╮   ╭──────────┬──────────┬──────────┬──────────┬──────────╮
         //│Caps Word │  XXXXXX  │  XXXXXX  │  XXXXXX  │ bt lyr   │   │          │          │          │          │          │
@@ -55,7 +55,7 @@
             >;
         };
 
-        left_layer_alpha {
+        left_layer_alpha { // 2
             bindings = <
         //╭──────────┬──────────┬──────────┬──────────┬──────────╮   ╭──────────┬──────────┬──────────┬──────────┬──────────╮
         //│          │          │          │          │          │   │ CLEAR BT |  XXXXXX  │  XXXXXX  │ XXXXXX   │ Caps Word│
@@ -72,7 +72,7 @@
             >;
         };
 
-        right_layer_special {
+        right_layer_special { // 3
             bindings = <
         //╭──────────┬──────────┬──────────┬──────────┬──────────╮   ╭──────────┬──────────┬──────────┬──────────┬──────────╮
         //│Caps Word │  XXXXXX  │  XXXXXX  │  XXXXXX  │ XXXXXX   │   │ XXXXXX   │ 7        │ 8        │ 9        │ XXXXXX   │
@@ -89,7 +89,7 @@
             >;
         };
 
-        left_layer_special {
+        left_layer_special { // 4
             bindings = <
         //╭──────────┬──────────┬──────────┬──────────┬──────────╮   ╭──────────┬──────────┬──────────┬──────────┬──────────╮
         //│ XXXXXX   │ XXXXXX   │  Up      │ XXXXXX   │ Backslsh │   │  XXXXXX  │  XXXXXX  │  XXXXXX  │ XXXXXX   │ Caps Word│
@@ -106,7 +106,7 @@
             >;
         };
 
-        bt_layer {
+        bt_layer { // 5
             bindings = <
         //╭──────────┬──────────┬──────────┬──────────┬──────────╮   ╭──────────────┬──────────────┬──────────────┬──────────────┬──────────────╮
         //│ XXXXXX   │ XXXXXX   │ XXXXXX   │ XXXXXX   │          │   │ bt prof 0    │ bt prof 1    │ bt prof 2    │ bt prof      │ bt prof 4    │

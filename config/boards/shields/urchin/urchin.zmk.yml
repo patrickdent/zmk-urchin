@@ -1,11 +1,11 @@
 file_format: "1"
-id: sandbender
-name: sandbender
+id: urchin
+name: urchin
 type: shield
 url: https://github.com/duckyb/urchin
 requires: [pro_micro]
 features:
   - keys
 siblings:
-  - sandbender_left
-  - sandbender_right
+  - urchin_left
+  - urchin_right
