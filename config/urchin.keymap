@@ -45,7 +45,7 @@
             &caps_word   &none      &none     &none     &mo 5          &trans     &trans     &trans     &trans     &trans
         //├──────────┼──────────┼──────────┼──────────┼──────────┤   ├──────────┼──────────┼──────────┼──────────┼──────────┤
         //│ Shift    │  Control │  GUI     │  Alt     │ Tab      │   │          │          │          │          │          │
-            &mt LSHIFT &sk LSHIFT  &mt LCTRL &sk LCTRL  &mt LGUI &sk LGUI   &mt LALT &sk LALT  &kp TAB        &trans     &trans     &trans     &trans     &trans
+            &sk LSHIFT  &sk LCTRL  &sk LGUI   &sk LALT  &kp TAB        &trans     &trans     &trans     &trans     &trans
         //├──────────┼──────────┼──────────┼──────────┼──────────┤   ├──────────┼──────────┼──────────┼──────────┼──────────┤
         //│ Escape   │  XXXXXX  │  XXXXXX  │  XXXXXX  │ XXXXXX   │   │          │          │          │          │          │
             &kp ESC     &none      &none      &none     &none          &trans     &trans     &trans     &trans     &trans
